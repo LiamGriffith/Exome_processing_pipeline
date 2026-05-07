@@ -2,7 +2,7 @@
 #SBATCH --job-name=08filtercandidates
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
-#SBATCH --time=12:00:00
+#SBATCH --time=128:00:00
 #SBATCH --output=../logs/08filtercandidates.out
 #SBATCH --error=../logs/08filtercandidates.err
 
