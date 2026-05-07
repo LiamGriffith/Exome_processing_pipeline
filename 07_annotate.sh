@@ -2,7 +2,7 @@
 #SBATCH --job-name=07annotate.sh
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
-#SBATCH --time=12:00:00
+#SBATCH --time=128:00:00
 #SBATCH --output=../logs/07annotate.out
 #SBATCH --error=../logs/07annotate.err
 
