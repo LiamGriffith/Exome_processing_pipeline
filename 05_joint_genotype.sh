@@ -2,7 +2,7 @@
 #SBATCH --job-name=05joint_genotype
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
-#SBATCH --time=24:00:00
+#SBATCH --time=128:00:00
 #SBATCH --output=../logs/05jointgenotype.out
 #SBATCH --error=../logs/05jointgenotype.err
 
