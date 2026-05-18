@@ -35,7 +35,7 @@ vep \
     --dir_cache "$VEP_CACHE" \
     --cache_version "$VEP_VERSION" \
     --assembly GRCh38 \
-    --fasta /path/to/GRCh38/GRCh38.fa \
+    --fasta /rds/projects/m/morgannv-liam-mibtp/Exomes/Data/reference/GRCh38_no_alt.fna \
     --fork "$SLURM_CPUS_PER_TASK" \
     --buffer_size 5000 \
     --everything \
